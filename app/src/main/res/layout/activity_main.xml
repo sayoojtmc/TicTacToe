@@ -18,6 +18,8 @@
             android:id="@+id/textview1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
             android:text="player 1: 0"
             android:textColor="#2196F3"
             android:textSize="30sp" />
@@ -27,13 +29,13 @@
             android:id="@+id/textview2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="76dp"
+            android:background="#757575"
             android:text="player 2: 0"
             android:textColor="#2196F3"
-            android:textSize="30sp"
-            android:background="#757575"/>
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/button_reset"
