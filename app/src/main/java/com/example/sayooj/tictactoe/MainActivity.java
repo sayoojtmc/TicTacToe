@@ -78,12 +78,20 @@ public class MainActivity extends AppCompatActivity{
                             Toast.makeText(getApplicationContext(), "Player1 wins!",
                                     Toast.LENGTH_SHORT).show();
                             reset();
+                            player1point=0;
+                            player2point=0;
+                            textview1.setText("player1:0");
+                            textview2.setText("player2:0");
                         }
                         else if(player2point==10)
                         {
                             Toast.makeText(getApplicationContext(), "Player2 wins!",
                                     Toast.LENGTH_SHORT).show();
                             reset();
+                            player1point=0;
+                            player2point=0;
+                            textview1.setText("player1:0");
+                            textview2.setText("player2:0");
                         }
                     }
                 });
@@ -102,6 +110,7 @@ public class MainActivity extends AppCompatActivity{
                                 for(int j=0;j<3;j++){
                                     buttons[i][j].setText("*");
                                 }
+
                             }
                         }
 
