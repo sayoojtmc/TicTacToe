@@ -44,9 +44,9 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="108dp"
-            android:textColor="#2196F3"
             android:background="#757575"
-            android:text="Reset"/>
+            android:text="Reset"
+            android:textColor="#2196F3" />
 
     </RelativeLayout>
 
