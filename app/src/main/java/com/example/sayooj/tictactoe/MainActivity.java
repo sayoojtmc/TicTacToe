@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity{
                         else if(player2point==10)
                         {
                             Toast.makeText(getApplicationContext(), "Player2 wins!",
-                                    Toast.LENGTH_SHORT).show();
+                                    Toast.LENGTH_SHORT).show();             //TOAST!!
                             reset();
                             player1point=0;
                             player2point=0;
@@ -138,14 +138,25 @@ public class MainActivity extends AppCompatActivity{
                             }
 
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("round",roundcount);
+        outState.putInt("play1",player1point);
+        outState.putInt("play2",player2point);
+        outState.putBoolean("turn",player1turn);
 
+    }
 
-
-
-
-
-
-                        }
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        roundcount=savedInstanceState.getInt("round");
+        player1point=savedInstanceState.getInt("play1");
+        player2point=savedInstanceState.getInt("play2");
+        player1turn=savedInstanceState.getBoolean("turn");
+    }
+}
 
 
 

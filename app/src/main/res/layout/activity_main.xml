@@ -22,7 +22,8 @@
             android:layout_centerVertical="true"
             android:text="player 1: 0"
             android:textColor="#2196F3"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:freezesText="true"/>
 
         <TextView
 
@@ -35,7 +36,8 @@
             android:background="#757575"
             android:text="player 2: 0"
             android:textColor="#2196F3"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_reset"
@@ -65,6 +67,7 @@
             android:textColor="#2196F3"
             android:background="#757575"
             android:textSize="60sp"
+            android:freezesText="true"
             />
         <Button
             android:id="@+id/button_01"
@@ -74,7 +77,8 @@
             android:textColor="#2196F3"
             android:text="*"
             android:textSize="60sp"
-            android:background="#757575"/>
+            android:background="#757575"
+            android:freezesText="true"/>
         <Button
             android:id="@+id/button_02"
             android:layout_width="0dp"
@@ -83,7 +87,8 @@
             android:text="*"
             android:textColor="#2196F3"
             android:textSize="60sp"
-            android:background="#757575"/>
+            android:background="#757575"
+            android:freezesText="true"/>
     </LinearLayout>
 
 
@@ -103,7 +108,8 @@
             android:background="#757575"
 
             android:textColor="#2196F3"
-            android:textSize="60sp" />
+            android:textSize="60sp"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_11"
@@ -113,7 +119,8 @@
             android:text="*"
             android:textColor="#2196F3"
             android:textSize="60sp"
-            android:background="#757575"/>
+            android:background="#757575"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_12"
@@ -123,7 +130,8 @@
             android:textColor="#2196F3"
             android:text="*"
             android:textSize="60sp"
-            android:background="#757575"/>
+            android:background="#757575"
+            android:freezesText="true"/>
     </LinearLayout>
 
 
@@ -141,7 +149,8 @@
             android:layout_weight="1"
             android:background="#757575"
             android:text="*"
-            android:textSize="60sp" />
+            android:textSize="60sp"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_21"
@@ -151,7 +160,8 @@
             android:text="*"
             android:textColor="#2196F3"
             android:textSize="60sp"
-            android:background="#757575"/>
+            android:background="#757575"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/button_22"
@@ -161,7 +171,8 @@
             android:text="*"
             android:textColor="#2196F3"
             android:textSize="60sp"
-            android:background="#757575"/>
+            android:background="#757575"
+            android:freezesText="true"/>
     </LinearLayout>
         
 
